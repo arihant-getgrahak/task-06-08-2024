@@ -117,6 +117,12 @@ footer{
     height: 2.5rem;
     text-align: center;
     padding: 1rem 0;
+    margin-bottom: 2rem;
+}
+
+
+footer>p{
+    font-size: 32px;
 }
 .card{
     /* border: 2px solid black; */
