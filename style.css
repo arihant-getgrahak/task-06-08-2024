@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: rgb(236, 224, 224);
 
 }
 .header{
@@ -27,26 +28,27 @@ a:hover{
     width: 100vw;
     background-color: black;
     color: wheat;
+    border-bottom: 2px solid black;
 }
 #about{
     height: 100vh;
     width: 100vw;
     background-color: cyan;
+    border-bottom: 2px solid black;
 }
 #feature{
-    height: 100dvh;
     width: 100vw;
-    background-color: blue;
-    color: wheat;
+    border-bottom: 2px solid black;
 }
+
 #contact{
     height: 100dvh;
     width: 100vw;
-    background-color: rgb(236, 224, 224);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-bottom: 2px solid black;
 }
 #contact-1{
     padding-top: 2.5rem;
@@ -104,5 +106,52 @@ footer{
     text-align: center;
     padding: 1rem 0;
 }
+.card{
+    /* border: 2px solid black; */
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
 
+.card1{
+    width: 21rem;
+    border: 2px solid black;
+    padding: 2rem 2rem;
+}
 
+.card2{
+    width: 21rem;
+    padding: 2rem 2rem;
+    border: 2px solid black;
+}
+.card3{
+    width: 21rem;
+    padding: 2rem 2rem;
+    border: 2px solid black;
+}
+
+.card4{
+    width: 21rem;
+    border: 2px solid black;
+    padding: 2rem 2rem;
+}
+.card5{
+    width: 21rem;
+    border: 2px solid black;
+    padding: 2rem 2rem;
+}
+
+img{
+    width: 18rem;
+    margin-bottom: 1rem;
+}
+
+#feature>h1{
+    text-align: center;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 50px;
+}
