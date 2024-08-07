@@ -5,6 +5,9 @@
     background-color: rgb(236, 224, 224);
 
 }
+h1{
+    text-decoration: underline;
+}
 .header{
     display: flex;
     justify-content: space-evenly;
@@ -44,24 +47,34 @@ a:hover{
 #contact{
     height: 100dvh;
     width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
     border-bottom: 2px solid black;
 }
-#contact-1{
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5rem;
+}
+#contact>h1{
     padding-top: 2.5rem;
     text-align: center;
-}
-#contact-1>h1{
     font-size: 50px;
     text-decoration: underline;
 }
+
 #contact-form{
     margin-top: 3rem;
     /* border: 2px solid black; */
     height:  50%;
+}
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 25px;
+    border: 2px solid black;
+    padding: 2rem;
 }
 form{
     display: flex;
@@ -69,6 +82,8 @@ form{
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    padding: 2rem 5rem;
+    border: 2px solid black;
 }
 form>div{
     display: flex;
@@ -101,8 +116,7 @@ form>button{
     font-size: 18px;
 }
 footer{
-    border-top: 2px solid black;
-    height: 2.25rem;
+    height: 2.5rem;
     text-align: center;
     padding: 1rem 0;
 }
